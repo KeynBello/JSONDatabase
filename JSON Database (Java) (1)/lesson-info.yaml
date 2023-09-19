@@ -1,0 +1,10 @@
+type: framework
+custom_name: JSON Database (Java)
+content:
+  - 100-cell database
+  - Network connection
+  - Simple online database
+  - "Hello, JSON"
+  - Multithreaded server
+  - Complex keys
+current_task: 0

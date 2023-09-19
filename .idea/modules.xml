@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JSONDatabase.iml" filepath="$PROJECT_DIR$/.idea/JSONDatabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JSON Database (Java)/task/JSONDatabase.JSON_Database__Java_-task.iml" filepath="$PROJECT_DIR$/.idea/modules/JSON Database (Java)/task/JSONDatabase.JSON_Database__Java_-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JSON Database (Java)/task/JSONDatabase.JSON_Database__Java_-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JSON Database (Java)/task/JSONDatabase.JSON_Database__Java_-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JSON Database (Java)/task/JSONDatabase.JSON_Database__Java_-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/JSON Database (Java)/task/JSONDatabase.JSON_Database__Java_-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JSON Database (Java) (1)/task/JSONDatabase.JSON_Database__Java___1_-task.iml" filepath="$PROJECT_DIR$/.idea/modules/JSON Database (Java) (1)/task/JSONDatabase.JSON_Database__Java___1_-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JSON Database (Java) (1)/task/JSONDatabase.JSON_Database__Java___1_-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JSON Database (Java) (1)/task/JSONDatabase.JSON_Database__Java___1_-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JSON Database (Java) (1)/task/JSONDatabase.JSON_Database__Java___1_-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/JSON Database (Java) (1)/task/JSONDatabase.JSON_Database__Java___1_-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/JSONDatabase.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/JSONDatabase.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/JSONDatabase.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/JSONDatabase.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/JSONDatabase.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/JSONDatabase.util.test.iml" />
+    </modules>
+  </component>
+</project>

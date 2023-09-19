@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":JSON_Database__Java___1_-task" external.linked.project.path="$MODULE_DIR$/../../../../JSON Database (Java) (1)/task" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="JSONDatabase" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../JSON Database (Java) (1)/task">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../JSON Database (Java) (1)/task/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../JSON Database (Java) (1)/task/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../JSON Database (Java) (1)/task/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="96b0b61f-537c-481b-a2ef-de0ed8780a50" />
+  </component>
+</module>

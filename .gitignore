@@ -1,0 +1,5 @@
+# Project exclude paths
+/.gradle/
+/JSON Database (Java) (1)/task/build/
+/JSON Database (Java) (1)/task/out/
+/JSON Database (Java) (1)/task/out/production/classes/
