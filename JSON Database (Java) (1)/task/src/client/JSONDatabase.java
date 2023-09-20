@@ -23,7 +23,7 @@ public class JSONDatabase {
     public void set(int index, String text) {
         try {
             if (index >= 0 && index < data.size()) {
-                data.add(index, text);
+                data.set(index, text);
                 System.out.println("OK");
             } else {
                 throw new IllegalArgumentException();
@@ -45,7 +45,7 @@ public class JSONDatabase {
     }
     public void delete(int index) {
         try {
-            if (index >= 0 && index < data.size() - 1) {
+            if (index >= 0 && index < data.size()) {
                 data.set(index, "");
                 System.out.println("OK");
             } else {

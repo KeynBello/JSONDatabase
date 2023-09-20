@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":JSON_Database__Java_-task:test" external.linked.project.path="$MODULE_DIR$/../../../../JSON Database (Java)/task" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="JSONDatabase" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":JSON_Database__Java___1_-task-build-generated-sources-headers-java:test" external.linked.project.path="$MODULE_DIR$/../../../../../../../../../JSON Database (Java) (1)/task/build/generated/sources/headers/java" external.root.project.path="$MODULE_DIR$/../../../../../../../../.." external.system.id="GRADLE" external.system.module.group="JSONDatabase" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output-test url="file://$MODULE_DIR$/../../../../JSON Database (Java)/task/out/test/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../../../../../../JSON Database (Java) (1)/task/build/generated/sources/headers/java/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../../JSON Database (Java)/task/src/test" />
-    <content url="file://$MODULE_DIR$/../../../../JSON Database (Java)/task/test" />
+    <content url="file://$MODULE_DIR$/../../../../../../../../../JSON Database (Java) (1)/task/build/generated/sources/headers/java/src/test" />
+    <content url="file://$MODULE_DIR$/../../../../../../../../../JSON Database (Java) (1)/task/build/generated/sources/headers/java/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../../../../JSON Database (Java) (1)/task/build/generated/sources/headers/java/test" isTestSource="true" />
+    </content>
     <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="JSONDatabase.JSON_Database__Java_-task.main" />
+    <orderEntry type="module" module-name="JSONDatabase.JSON_Database__Java___1_-task-build-generated-sources-headers-java.main" />
     <orderEntry type="module" module-name="JSONDatabase.util.main" />
     <orderEntry type="module" module-name="JSONDatabase.util.test" production-on-test="" />
     <orderEntry type="library" name="Gradle: com.beust:jcommander:1.78" level="project" />
@@ -26,7 +28,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.easytesting:fest-util:1.2.5" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="507d54e7-b308-4556-bf5a-f279f265ac85" />
+    <option name="uniqueId" value="7093d989-3db3-45c0-9b11-3d9fe11cabda" />
   </component>
-  <component name="TestModuleProperties" production-module="JSONDatabase.JSON_Database__Java_-task.main" />
+  <component name="TestModuleProperties" production-module="JSONDatabase.JSON_Database__Java___1_-task-build-generated-sources-headers-java.main" />
 </module>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":JSON_Database__Java___1_-task-build-generated-sources-annotationProcessor-java:main" external.linked.project.path="$MODULE_DIR$/../../../../../../../../../JSON Database (Java) (1)/task/build/generated/sources/annotationProcessor/java" external.root.project.path="$MODULE_DIR$/../../../../../../../../.." external.system.id="GRADLE" external.system.module.group="JSONDatabase" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../../../../../../JSON Database (Java) (1)/task/build/generated/sources/annotationProcessor/java/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../../../../../JSON Database (Java) (1)/task/build/generated/sources/annotationProcessor/java/src" />
+    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.beust:jcommander:1.78" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.6" level="project" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="6252171b-cbb4-4da4-8e9d-d683ad9a7dca" />
+  </component>
+</module>
