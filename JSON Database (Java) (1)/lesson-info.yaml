@@ -1,5 +1,4 @@
 type: framework
-custom_name: JSON Database (Java)
 content:
   - 100-cell database
   - Network connection
@@ -7,4 +6,4 @@ content:
   - "Hello, JSON"
   - Multithreaded server
   - Complex keys
-current_task: 0
+current_task: 1

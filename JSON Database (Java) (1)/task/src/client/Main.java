@@ -1,45 +1,28 @@
 package client;
 
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.Socket;
 import java.util.Scanner;
 
-public class Main implements Runnable{
+public class Main {
     public static final Scanner SCANNER = new Scanner(System.in);
 
-    public static void main(String[] args) {
-    }
+    public static void main(String[] args) throws IOException {
+        String address = "127.0.0.1";
+        int port = 23456;
+        Socket socket = new Socket(InetAddress.getByName(address), port);
+        System.out.println("Client started!");
+        DataInputStream input = new DataInputStream(socket.getInputStream());
+        DataOutputStream output = new DataOutputStream(socket.getOutputStream());
 
-    @Override
-    public void run() {
-        JSONDatabase jsonDatabase = new JSONDatabase();
+        String request = "Give me a record # 12";
+        output.writeUTF(request);
+        System.out.println("Sent: " + request);
 
-        boolean isRun = true;
-        while (isRun) {
-            String command = SCANNER.nextLine();
-            String[] option = command.split(" ");
-
-
-            StringBuilder sb = new StringBuilder();
-            try {
-                if (!option[2].isEmpty()) {
-                    for (int i = 2; i < jsonDatabase.getData().size() - 1; i++) {
-                        sb.append(option[i] + " ");
-                    }
-                }
-            } catch (Exception ignored) {
-            }
-            String text = sb.toString();
-
-            int cellIndex = 0;
-            if (option.length > 1 && !option[1].isEmpty()) {
-                 cellIndex = Integer.parseInt(option[1]) - 1;
-            }
-
-            switch (option[0]) {
-                case "get" -> jsonDatabase.get(cellIndex);
-                case "set" -> jsonDatabase.set(cellIndex, text);
-                case "delete" -> jsonDatabase.delete(cellIndex);
-                case "exit" -> isRun = false;
-            }
-        }
+        String serverResponse = input.readUTF();
+        System.out.println("Received: " + serverResponse);
     }
 }
