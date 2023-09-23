@@ -197,6 +197,15 @@ files:
           }
       }
     learner_created: false
+  - name: src/client/JSONDatabase.java
+    visible: true
+    learner_created: true
+  - name: src/client/java
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5492#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 23 Sep 2023 15:32:01 UTC"
+record: 1

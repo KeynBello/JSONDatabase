@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://cogniterra.org/media/attachments/lesson/23048/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Wed, 20 Sep 2023 17:22:20 UTC"
+update_date: "Sat, 23 Sep 2023 15:00:35 UTC"
 stages:
   - id: 348
     step: 5490
@@ -13,7 +13,7 @@ stages:
     is_completed: true
   - id: 350
     step: 5492
-    is_completed: false
+    is_completed: true
   - id: 351
     step: 5493
     is_completed: false
@@ -25,8 +25,6 @@ stages:
     is_completed: false
 topics:
   0:
-    - title: Units of information
-      theory_id: 6865
     - title: "Write, compile, and run"
       theory_id: 3739
     - title: Introduction to Java
@@ -81,6 +79,8 @@ topics:
       theory_id: 3489
     - title: Functional decomposition
       theory_id: 10570
+    - title: Overloading
+      theory_id: 3525
     - title: Primitive and reference types
       theory_id: 5035
     - title: Array
@@ -91,6 +91,8 @@ topics:
       theory_id: 3514
     - title: String
       theory_id: 3523
+    - title: Errors in programs
+      theory_id: 3536
     - title: What is an exception
       theory_id: 3497
     - title: Introduction to OOP
@@ -123,6 +125,8 @@ topics:
       theory_id: 3599
     - title: Inheritance
       theory_id: 3583
+    - title: Multiple constructors
+      theory_id: 3538
     - title: The keyword super
       theory_id: 3588
   1:
@@ -178,8 +182,16 @@ topics:
       theory_id: 3619
     - title: Exceptions in threads
       theory_id: 4882
+    - title: Protected modifier
+      theory_id: 6692
+    - title: Referencing subclass objects
+      theory_id: 3585
     - title: Objects
       theory_id: 4727
+    - title: Static members
+      theory_id: 3534
+    - title: Annotations basics
+      theory_id: 3622
     - title: Hiding and overriding
       theory_id: 3572
     - title: Polymorphism
@@ -215,8 +227,6 @@ topics:
       theory_id: 10630
     - title: Command
       theory_id: 7762
-    - title: Annotations basics
-      theory_id: 3622
   3:
     - title: Modulo division
       theory_id: 10586
@@ -248,6 +258,8 @@ topics:
       theory_id: 3575
     - title: The Map interface
       theory_id: 3558
+    - title: The Object class
+      theory_id: 3596
   4:
     - title: Method references
       theory_id: 3620
