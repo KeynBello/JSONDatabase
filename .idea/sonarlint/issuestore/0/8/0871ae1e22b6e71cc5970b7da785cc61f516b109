@@ -1,4 +1,7 @@
 
-L	java:S106"+Replace this use of System.out by a logger.(†…³òÿÿÿÿÿ8±¿‹¬1
-L	java:S106"+Replace this use of System.out by a logger.(ò³áøÿÿÿÿ8¹¿‹¬1
-L	java:S106"+Replace this use of System.out by a logger.(ÖùÈ®ûÿÿÿÿ8È¿‹¬1
+L	java:S106)"+Replace this use of System.out by a logger.(†…³òÿÿÿÿÿ8ÛË±·¬1
+x
+java:S39234"[Remove this conditional structure or edit its code blocks so that they're not all the same.(ààà®8ëË±·¬1
+L	java:S1067"+Replace this use of System.out by a logger.(ò³áøÿÿÿÿ8õË±·¬1
+L	java:S106;"+Replace this use of System.out by a logger.(ò³áøÿÿÿÿ8úË±·¬1
+L	java:S106@"+Replace this use of System.out by a logger.(œ²÷Èûÿÿÿÿ8ƒÌ±·¬1

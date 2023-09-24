@@ -197,12 +197,6 @@ files:
           }
       }
     learner_created: false
-  - name: src/client/JSONDatabase.java
-    visible: true
-    learner_created: true
-  - name: src/client/java
-    visible: true
-    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5492#comment
 status: Solved
 feedback:

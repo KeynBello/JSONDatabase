@@ -391,6 +391,15 @@ files:
           }
       }
     learner_created: false
+  - name: src/server/GoodResponse.java
+    visible: true
+    learner_created: true
+  - name: src/server/BadResponse.java
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5493#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 24 Sep 2023 15:56:57 UTC"
+record: 3

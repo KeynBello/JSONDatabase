@@ -2,22 +2,23 @@ package client;
 
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.net.InetAddress;
 import java.net.Socket;
 
 public class Main {
 
-    @Parameter(names = {"--requestType", "-t"})
+    @Parameter(names = {"--type", "-t"}, description = "type")
     private static String requestType;
 
-    @Parameter(names = {"--cellIndex", "-i"})
-    private static int cellIndex;
+    @Parameter(names = {"--key", "-k"}, description = "key")
+    private static String cellIndex;
 
-    @Parameter(names = {"--message", "-m"})
+    @Parameter(names = {"--value", "-v"}, description = "value")
     private static String message;
 
     public static void main(String[] args) throws IOException {
@@ -39,18 +40,32 @@ public class Main {
                  DataOutputStream output = new DataOutputStream(socket.getOutputStream())) {
                 System.out.println("Client started!");
 
+                JsonObject jsonRequest = new JsonObject();
+                jsonRequest.addProperty("type", requestType);
+                if (cellIndex != null) {
+                    jsonRequest.addProperty("key", cellIndex);
+                }
+                if (message != null) {
+                    jsonRequest.addProperty("value", message);
+                }
+
                 if (!requestType.equalsIgnoreCase("exit")) {
-                    String messageToServer = message != null? message : " ";
-                    String request = requestType + " " + cellIndex + " " + messageToServer;
+                    String request = jsonRequest.toString();
                     output.writeUTF(request);
                     System.out.println("Sent: " + request);
                 } else {
-                    String request = requestType;
+                    String request = jsonRequest.toString();
                     output.writeUTF(request);
                     System.out.println("Sent: " + request);
                 }
+
                 String serverResponse = input.readUTF();
-                System.out.println("Received: " + serverResponse);
+                JsonObject responseJson = JsonParser.parseString(serverResponse).getAsJsonObject();
+
+                responseJson.addProperty("response", serverResponse);
+                String responseType = responseJson.get("response").getAsString();
+                System.out.println("Received:" + responseType);
+
             }
     }
 }

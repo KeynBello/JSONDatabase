@@ -1,0 +1,9 @@
+
+h
+java:S1192J"KUse already-defined constant 'ERROR' instead of duplicating its value here.(¦Îê©8± ¸¬1
+L	java:S106"+Replace this use of System.out by a logger.(ïëèÖıÿÿÿÿ8‰¡¸¬1
+J	java:S108;")Either remove or fill this block of code.(Æ¸Û‚øÿÿÿÿ8“¡¸¬1
+J	java:S108@")Either remove or fill this block of code.(Æ¸Û‚øÿÿÿÿ8”¡¸¬1
+J	java:S108E")Either remove or fill this block of code.(Æ¸Û‚øÿÿÿÿ8•¡¸¬1
+C	java:S131M""Add a default case to this switch.(¸†äÔÿÿÿÿÿ8œ¡¸¬1
+]	java:S125Y"<This block of commented-out lines of code should be removed.(¤¦Äºûÿÿÿÿ8¡¸¬1
