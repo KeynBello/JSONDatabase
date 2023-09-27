@@ -599,6 +599,74 @@ files:
           }
       }
     learner_created: false
+  - name: src/server/GoodResponse.java
+    visible: true
+    text: |
+      package server;
+      
+      import com.beust.jcommander.Parameter;
+      import com.google.gson.JsonObject;
+      
+      public class GoodResponse {
+          @Parameter(names = {"--OK", "-OK"}, description = "response")
+          private static final String OK_RESPONSE = "OK";
+      
+          public String getOkResponse() {
+              JsonObject responseOk = new JsonObject();
+              responseOk.addProperty("response", OK_RESPONSE);
+              String jsonResponseOk = responseOk.toString();
+              return jsonResponseOk;
+          }
+      }
+    learner_created: true
+  - name: src/server/BadResponse.java
+    visible: true
+    text: |
+      package server;
+      
+      import com.beust.jcommander.Parameter;
+      import com.google.gson.JsonObject;
+      
+      public class BadResponse {
+          @Parameter(names = {"--ERROR", "-ERROR"}, description = "response")
+          private static final String ERROR_RESPONSE = "ERROR";
+      
+          @Parameter(names = {"--N/A", "-N/A"}, description = "reason")
+          private static final String NA_RESPONSE = "No such key";
+      
+          public String getErrorResponse() {
+              JsonObject responseError = new JsonObject();
+              responseError.addProperty("response", ERROR_RESPONSE);
+              String jsonResponseError = responseError.toString();
+              return jsonResponseError;
+          }
+          public String getNotSuchKey() {
+              JsonObject responseNa = new JsonObject();
+              responseNa.addProperty("response", ERROR_RESPONSE);
+              responseNa.addProperty("reason", NA_RESPONSE);
+              String jsonResponseNa = responseNa.toString();
+              return jsonResponseNa;
+          }
+      }
+    learner_created: true
+  - name: src/server/data/db.json
+    visible: true
+    learner_created: true
+  - name: src/client/data/testDelete.json
+    visible: true
+    learner_created: true
+  - name: src/client/data/testSet.json
+    visible: true
+    learner_created: true
+  - name: src/client/data/testGet.json
+    visible: true
+    learner_created: true
+  - name: src/client/data/db.json
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5494#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: Execution failed
+  time: "Tue, 26 Sep 2023 12:12:13 UTC"
 record: -1
